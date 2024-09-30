@@ -24,3 +24,5 @@ console.log(shop);
 
 const shopJSON = JSON.stringify(shop);
 console.log(shopJSON);
+const shopObj = JSON.parse(shopJSON);
+console.log(shopObj);
